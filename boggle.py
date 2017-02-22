@@ -153,11 +153,9 @@ def find_words(words, board):
 
         ANSWER_WORDS.append(word)
 
-    print "============================================"
     print ANSWER_WORDS
 
 if __name__ == "__main__":
     board = roll_cubes()
-    print_board(board)
     find_words(load_words(), board)
     print_board(board)
